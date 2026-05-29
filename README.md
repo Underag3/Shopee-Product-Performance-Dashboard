@@ -4,47 +4,47 @@
 [![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](https://jupyter.org/)
 [![Looker Studio](https://img.shields.io/badge/Looker_Studio-Dashboard-4285F4.svg)](https://lookerstudio.google.com/)
 
-**[Lihat Live Dashboard di Sini](https://datastudio.google.com/reporting/526c8331-9037-49aa-9a81-361d86d54bc2)**
+**[View Live Dashboard Here](https://datastudio.google.com/reporting/526c8331-9037-49aa-9a81-361d86d54bc2)**
 
-## 📌 Gambaran Umum Proyek
-Proyek ini bertujuan untuk menganalisis dan memvisualisasikan performa produk di *platform* e-commerce Shopee. Melalui dasbor interaktif yang dibangun menggunakan Google Data Studio (Looker Studio), pengguna dapat memantau berbagai metrik utama bisnis seperti [sebutkan metrik utama, misal: total penjualan, produk terlaris, atau tren pendapatan]. 
+## 📌 Overview Project
+This project aims to analyze and visualize product performance on the Shopee e-commerce platform. Through an interactive dashboard built using Google Data Studio (Looker Studio), users can monitor various key business metrics such as [name key metric, e.g., total sales, best-selling products, or revenue trends].
 
-Proses persiapan data (pembersihan dan transformasi) dilakukan sepenuhnya menggunakan Python sebelum diimpor ke dalam perangkat visualisasi.
+The data preparation process (cleaning and transformation) was performed entirely in Python before being imported into the visualization tool.
 
-## 🛠️ Alat dan Teknologi
-* **Bahasa Pemrograman:** Python (via Jupyter Notebook)
-* **Library Pemrosesan Data:** [Sebutkan library, misal: Pandas, NumPy]
-* **Visualisasi & Dasbor:** Google Data Studio / Looker Studio
-* **Sumber Data:** [Sebutkan asal data, misal: Hasil web scraping, Kaggle, atau dataset internal]
+## 🛠️ Tools and Technologies
+* **Programming Language:** Python (via Jupyter Notebook)
+* **Data Processing Library:** [Specify library, e.g., Pandas, NumPy]
+* **Visualization & Dashboard:** Google Data Studio / Looker Studio
+* **Data Source:** [Specify data source, e.g., web scraping, Kaggle, or internal dataset]
 
-## 📂 Struktur Repositori
-* `Data Cleaning.ipynb` : Notebook yang berisi langkah-langkah pembersihan data mentah, penanganan *missing values*, dan transformasi format data agar siap digunakan untuk analisis.
-* `[Nama_File_Dataset_Clean.csv]` : *(Opsional - Jika Anda mengunggah datanya)* Dataset hasil pembersihan yang digunakan dalam dasbor.
+## 📂 Repository Structure
+* `Data Cleaning.ipynb`: A notebook containing steps for cleaning raw data, handling missing values, and formatting the data to prepare it for analysis.
+* `[Dataset_Clean_File_Name.csv]`: *(Optional - If you uploaded the data)* The cleaned dataset used in the dashboard.
 
-## 💡 Insight Utama (Key Findings)
-1. **Fenomena Impulse Buying & Repeat Order:** Rasio Sales-to-Favorite mencapai 1.27 (127%), menandakan konsumen sering kali langsung melakukan pembelian tanpa melakukan 'bookmarking/favorit' terlebih dahulu, atau melakukan pembelian berulang.
-2. **Kategori Home Appliances sebagai Revenue Driver Utama:** Menyumbang pendapatan tertinggi sebesar Rp242,2 Juta meskipun volume penjualannya lebih rendah, mengindikasikan harga rata-rata produk (AOV) yang tinggi namun memerlukan evaluasi ketat pada kualitas karena memiliki rating terendah (4.41).
-3. **Tingginya Perilaku Window Shopping pada Fashion Wanita:** Kategori pakaian dan tas wanita memiliki volume minat (Favorite) yang besar, namun memiliki rasio konversi terendah (< 0.75), menunjukkan konsumen membutuhkan stimulus tambahan (seperti voucher atau gratis ongkir) untuk melakukan checkout.
-4. **Groceries & Pets Memiliki Loyalitas Tertinggi:** Mencatat rasio Sales/Favorite tertinggi sebesar 2.76, menjadikannya kategori paling potensial untuk program langganan (subscription-based marketing).
+## 💡 Key Insights
+1. **Impulse Buying & Repeat Order Phenomenon:** The Sales-to-Favorite ratio reached 1.27 (127%), indicating that consumers often make purchases immediately without first 'bookmarking/favoriting' or making repeat purchases.
+2. **Home Appliances Category as the Main Revenue Driver:** Contributed the highest revenue of IDR 242.2 million despite lower sales volume, indicating a high average product price (AOV) but requiring strict evaluation of quality due to its lowest rating (4.41).
+3. **High Window Shopping Behavior in Women's Fashion:** The women's clothing and handbags category had a high volume of interest (Favorites), but had the lowest conversion ratio (<0.75), indicating that consumers needed additional incentives (such as vouchers or free shipping) to checkout.
+4. **Groceries & Pets Has the Highest Loyalty:** Recording the highest Sales/Favorite ratio of 2.76, making it the most potential category for subscription-based marketing.
 
-## 🚀 Cara Menjalankan Proyek Lokal (Tahap Persiapan Data)
-Jika Anda ingin melihat atau memodifikasi proses pembersihan data:
+## 🚀 How to Run a Local Project (Data Preparation Stage)
+If you want to view or modify the data cleaning process:
 
-1. Kloning repositori ini:
-   ```bash
-   git clone [https://github.com/Underag3/Shopee-Product-Performance-Dashboard.git](https://github.com/Underag3/Shopee-Product-Performance-Dashboard.git)
+1. Clone this repository:
+```bash
+git clone [https://github.com/Underag3/Shopee-Product-Performance-Dashboard.git](https://github.com/Underag3/Shopee-Product-Performance-Dashboard.git)
 
-2. Pastikan Anda telah menginstal library yang dibutuhkan. Anda bisa menginstalnya melalui pip:
+2. Make sure you have the required libraries installed. You can install them via pip:
 
-  ```bash
-  pip install pandas numpy jupyter
-  ```
-3. Jalankan Jupyter Notebook:
+```bash
+pip install pandas numpy jupyter
+```
+3. Run Jupyter Notebook:
 
-  ```
-  jupyter notebook
-  ```
-4. Buka file Data Cleaning.ipynb dan jalankan sel-sel di dalamnya.
+```
+jupyter notebook
+```
+4. Open the Data Cleaning.ipynb file and run the cells in it.
 
 ## 👤 Author
 Mohammad Tyas Subianto
